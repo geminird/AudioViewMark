@@ -3,6 +3,7 @@
 本软件基于NAudio.WaveFormRenderer修改，估计针对有长期录音需求的朋友有用，主要功能：实现声音的声波展示，以及标记音频文件的标记，声音分贝计算，以及多个工作目录间录音文件的拷贝。
 
 以下是原NAudio.WaveFormRenderer软件的内容：
+
 Simple utility to render waveforms of audio files to PNGs. Uses [NAudio](https://github.com/naudio/naudio) to extract the peaks and `System.Drawing` to render the images.
 
 The project contains the `WaveFormRendererLib` library which performs peak calculation and waveform rendering, along with a simple test harness WinForms application to try it out with different settings. This can be used in any project that is able to take a dependency on NAudio and System.Drawing. It can be used in WinForms or WPF apps, or within ASP.NET applications to generate server side waveform images.
