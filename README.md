@@ -2,6 +2,8 @@
 
 本软件基于NAudio.WaveFormRenderer修改，估计针对有长期录音需求的朋友有用，主要功能：实现声音的声波展示，以及标记音频文件的标记，声音分贝计算，以及多个工作目录间录音文件与标记信息的拷贝。
 
+支持的音频类型：wav，mp3，3gp。如果需要支持其他类型，Naudio支持的音频类型均可，请修改源代码添加支持。
+
 以下是原NAudio.WaveFormRenderer软件的内容：
 
 Simple utility to render waveforms of audio files to PNGs. Uses [NAudio](https://github.com/naudio/naudio) to extract the peaks and `System.Drawing` to render the images.
