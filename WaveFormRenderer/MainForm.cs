@@ -27,7 +27,8 @@ namespace WaveFormRendererApp
         private AudioFileReader audioFileReader;
         private ListViewItem currentPlayItem;
         bool autoPlayNext = false;
-        private string initDir = @"L:\DebugFiles\11@11.cn\DUAL_868777041042031_868777041125497\records";
+        //请设定需默认打开的工作目录。
+        private string initDir = @"C:\";
         private static readonly object lockObj = new object();
         private static readonly object fileLockObj = new object();
 
